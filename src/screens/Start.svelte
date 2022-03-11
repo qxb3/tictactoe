@@ -4,7 +4,7 @@
 	import { createEventDispatcher } from 'svelte'
 	const dispatch = createEventDispatcher()
 
-	let rounds = 0
+	let rounds = 1
 	let sendError = false
 
 	const onStart = () => {
@@ -44,6 +44,17 @@
 
 	h1, button {
 		margin: 3rem;
+	}
+
+	button {
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		width: 6rem;
+		height: 2.5rem;
+	}
+
+	button:hover {
+		background-color: #ccc;
 	}
 
 	.error {
