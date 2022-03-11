@@ -5,7 +5,9 @@
 	const dispatch = createEventDispatcher()
 
 	const onClick = () => {
-		dispatch('nextscreen', StartScreen)
+		dispatch('nextscreen', {
+			screen: StartScreen
+		})
 	}
 </script>
 
