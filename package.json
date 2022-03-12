@@ -1,5 +1,7 @@
 {
-  "name": "svelte-app",
+  "name": "tictactoe",
+  "description": "A simple tictactoe game using svelte",
+  "license": "MIT",
   "version": "1.0.0",
   "private": true,
   "scripts": {
