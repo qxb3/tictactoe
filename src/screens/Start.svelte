@@ -4,7 +4,7 @@
 	import { createEventDispatcher } from 'svelte'
 	const dispatch = createEventDispatcher()
 
-	let rounds = 1
+	let rounds = 0
 	let sendError = false
 
 	const onStart = () => {
